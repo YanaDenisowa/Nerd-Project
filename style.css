@@ -14,7 +14,7 @@ header{
   width: 100%;
   max-width: 1170px;
   margin: auto;
-  padding-top: 80px;
+  padding-top: 40px;
 
 }
 /*
@@ -48,9 +48,16 @@ header{
   justify-content: space-between;
 }
 .header__logo a{
-  display: block;
+   display: block;
+}
+.header__logo a img:hover{
+  opacity: 0.7;
+}
+.header__logo a img:active{
+  opacity: 0.4;
 }
 .header__items ul{
+   padding-top: 40px;
   list-style: none;
   display: flex;
 }
@@ -60,7 +67,7 @@ header{
 .header__items ul li a{
   text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 .header__items ul li a:hover{
@@ -69,10 +76,13 @@ header{
 .header__items ul li a:active{
   color: #a6a6a6;
 }
+.header__cart {
+   padding-top: 40px;
+}
 .header__cart a{
   text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 .header__cart a:before{
@@ -331,7 +341,7 @@ section.contact_us{
   width: 300px;
   background-color: white;
   position: absolute;
-  left:140px;
+  left:20%;
   top:15%;
 }
 .contact_us .map__address h4{

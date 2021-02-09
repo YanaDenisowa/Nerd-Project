@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Start Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap" rel="stylesheet">
+	<!-- End Google Fonts -->
+	<!-- Start FontAwesome -->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<!-- End FontAwesome -->
+	<!-- Start CSS -->
+	<link rel="stylesheet" href="style_catalog.css">
+</head>
+<body>
+	<!-- Start Header -->
+	<header>
+		<div class="header_container container">
+			<div class="header__logo">
+				<a href="index.html">
+					<img src="img/nerds-logo.svg" alt="logo">
+				</a>
+			</div>
+			<nav class="header__items">
+				<ul>
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
+					<li><a href="#" class="active">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header__cart">
+				<a href="#">Корзина</a>
+			</div>
+		</div>
+		<div class="title container">
+		 <h1>Магазин готовых шаблонов</h1>
+		</div>
+	</header>
+	<!-- End Header -->
+	
+	<!-- Start Main Section -->
+	<section class="main container">
+		 <div class="main_container">
+			 <div class="container_small">
+				<form action="#">
+					<h3>стоимость:</h3>
+		<!--      Ranger     -->
+						<div class="ranger">
+							<input type="range" min="0" max="15000">
+							<span class="line"></span>
+							<span class="custom_cursor1"></span>
+							<span class="custom_cursor2"></span>
+						</div>
+						<p class="mb-60 ranger_value">
+							ОТ <output><span>0</span></output>
+							ДО <output><span>15000</span></output>
+						</p>
+	<!--    Radio button group -->
+					<ul class="radio">
+						<h3 class="radio_btn">Сетка:</h3>
+							<li>
+								<label>Адаптивная
+									<input type="radio" class="radio_checked" checked>
+									<span></span>
+									</input>
+								</label>
+							</li>
+							<li>
+								<label>Фиксированная
+									<input type="radio">
+									<span></span>
+									</input>
+								</label>
+							</li>
+							<li>
+								<label>Резиновая
+									<input type="radio" >
+									<span></span>
+									</input>
+								</label>
+							</li>
+					</ul>	 
+	<!--     Checkbox group  -->
+					<ul>
+						<h3 class="chekbx">Особенности:</h3>
+							<li>
+								<label>Слайдер
+									<input type="checkbox" class="chbx_on"  >
+									<span></span>
+									</input>
+								</label>
+							</li>
+							<li>
+								<label>Блок приемуществ 
+									<input type="checkbox">
+									<span></span>
+									</input>
+								</label>
+							</li>
+							<li>
+								<label> Новости
+									<input type="checkbox" class="chbx_on" >
+									<span></span>
+									</input>
+								</label>
+							</li>
+							<li>
+								<label>Галерея
+									<input type="checkbox">
+									<span></span>
+									</input>
+								</label>
+							</li>
+							<li>
+								<label>Корзина 
+									<input type="checkbox">
+									<span></span>
+									</input>
+								</label>
+							</li> 
+				    </ul>
+					<button type="submit" class="btn">Показать</button> 
+				</form>
+			</div> 
+				<div class="container_big">
+					<ul class="sorter" >
+						<li><h3>Сортировать:</h3></li>
+						<li style="margin-left:250px;"><a href="#">По цене</a></li>
+						<li><a href="#">по типу</a></li>
+						<li><a href="#">по названию</a></li>
+						<li class="icon">
+							<a href="#" class="icon_down" >
+								<img src="img/icon-down-dir.svg" alt="down">
+							</a> 		
+							<a href="#" class="icon_up">
+								<img src="img/icon-up-dir-svg.svg" alt="up" class="nonactive">
+							</a> 		
+						</li>
+					</ul>
+			<!--   Image Container  -->
+					<div class="image_container mb-60">
+						<!-- First Item  Sedona -->
+						<div class="img_item mr-50 mb-70">
+							<div class="main_img">
+								<a href="#">
+									<img src="img/img-sedona.jpg" alt="pic">
+								</a>
+								<img src="img/browser.svg" alt="pic" class="head_img">
+								<div class="item_info">
+									<h4>sedona</h4>
+									<p>Продуктовый лендинг<br> приложения для iOS и Android</p>
+									<a href="#">9900 РУБ.</a>
+								</div>
+							</div>
+						</div>
+						 <!-- Second Item    Pink  -->
+						<div class="img_item mb-70">
+							<div class="main_img">
+								<a href="#">
+									<a href="#"><img src="img/img-pink.jpg" alt="pic">
+								</a>
+								<img src="img/browser.svg" alt="pic" class="head_img">
+								<div class="item_info">
+									<h4>pink app</h4>
+									<p>Продуктовый лендинг<br> приложения для iOS и Android</p>
+									<a href="#">9900 РУБ.</a>
+								</div>
+							</div>
+						</div>
+						  <!-- Third Item   Barber -->
+						<div class="img_item mr-50 mb-70">
+							<div class="main_img">
+								<a href="#">
+									<img src="img/img-barbershop.jpg" alt="pic">
+								</a>
+								<img src="img/browser.svg" alt="pic" class="head_img">
+								<div class="item_info">
+									<h4>barberhop</h4>
+									<p>Продуктовый лендинг<br> приложения для iOS и Android</p>
+									<a href="#">9900 РУБ.</a>
+								</div>
+							</div>
+						</div>
+						 <!-- Fourth Item Mishka -->
+						<div class="img_item mb-70">
+							<div class="main_img">
+								<a href="#">
+									<img src="img/img-mishka.jpg" alt="pic">
+								</a>
+								<img src="img/browser.svg" alt="pic" class="head_img">
+								<div class="item_info">
+									<h4>mishka</h4>
+									<p>Продуктовый лендинг<br> приложения для iOS и Android</p>
+									<a href="#">9900 РУБ.</a>
+								</div>
+							</div>
+						</div>
+						<!-- Fifth Item Aplus -->
+						<div class="img_item mr-50 mb-70">
+							<div class="main_img">
+								<a href="#">
+									<img src="img/img-aplus.jpg" alt="pic">
+								</a>				
+								<img src="img/browser.svg" alt="pic" class="head_img">
+								<div class="item_info">
+									<h4>aplus</h4>
+									<p>Продуктовый лендинг<br> приложения для iOS и Android</p>
+									<a href="#">9900 РУБ.</a>
+								</div>
+							</div>
+						</div>
+						 <!-- Sixth Item Kvas -->
+						<div class="img_item">
+							<div class="main_img">
+								<a href="#">
+									<img src="img/img-kvast.jpg" alt="pic">
+								</a>
+								<img src="img/browser.svg" alt="pic" class="head_img">
+								<div class="item_info">
+									<h4>kraft kvas</h4>
+									<p>Продуктовый лендинг<br> приложения для iOS и Android</p>
+									<a href="#">9900 РУБ.</a>
+								</div>
+							</div>
+						</div>
+						<!-- Pages -->
+					<ul class="pagination">
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li class="last_btn"><a href="#">Следующая</a></li>
+					</ul>
+				</div>
+			</div>
+	</section>
+  <!-- End Main Section   -->
+
+	 <!-- Start Contact Section -->
+
+	<section class="contact_us">
+			<div class="container">
+			<div class="map__address">
+				<h4>NЁRDS DESIGN STUDIO</h4>
+				<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+				<span>тел. +7 (812) 275-75-75</span>
+				<a href="#" class="btn_red">Напишите нам</a>
+			</div>
+			<div class="map__marker container">
+				<img src="img/map-marker.png" alt="mark">
+			</div>
+			</div>
+	</section>
+	<!-- End Contact Section -->
+
+	<!-- Start Footer Section -->
+	<section class="footer">
+		<div class="footer_container container">
+			<ul class="social__icon_container">
+				<li class="social__icon"> 
+					<a href="#" class="icon1">
+						<i class="fa fa-facebook"></i>
+					</a> 		
+				</li>
+				<li class="social__icon">
+					<a href="#" class="icon2">
+						<i class="fa fa-vk"></i>
+					</a> 		
+				</li>
+				<li class="social__icon">
+					<a href="#" class="icon3" >
+						<i class="fa fa-instagram" style="font-weight: bold;"></i>
+					</a> 		
+				</li> 
+			</ul> 
+			<div class="footer__info">
+				<h3>Давайте дружить, это выгодно!</h3>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+			</div>
+		</div>
+	</section> 
+	<!-- End Footer Section -->
+</body>
+</html>
